@@ -1,0 +1,24 @@
+md newproject
+cd newproject
+
+echo "# create new file for my project" >> README.md
+
+git init
+git add README.md
+
+git commit -m "first commit"
+
+# [create main branch]
+
+git branch -M main
+
+# [push changes in local repository to github]
+git remote add origin https://github.com/Bukhari1986/NewProject.git
+
+# [push changes to remote repository]
+git push -u origin main
+
+#[provide user and password]
+
+# [check status of the local repository]
+git status
